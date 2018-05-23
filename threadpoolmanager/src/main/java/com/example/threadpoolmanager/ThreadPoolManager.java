@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ThreadPoolManager {
 
-    public static boolean isDebug  = true;
+    public static boolean isDebug  = false;
     private static ThreadPoolManager threadPoolManager;
     private static BaseThreadPool imageLoadTheadPoll;
     private static BaseThreadPool downLoadTheadPoll;
